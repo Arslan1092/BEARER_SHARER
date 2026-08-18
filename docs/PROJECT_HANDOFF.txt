@@ -1,0 +1,45 @@
+BEARER SHARER — PROJECT HANDOFF / CONTINUATION CODE
+
+PROJECT: BEARER SHARER
+GOAL: Professional, secure, responsive full-stack website for BEARER SHARER.
+
+CURRENT STATE:
+- Backend: Node.js + Express.
+- Database: Node 24 built-in SQLite (`node:sqlite`).
+- Security: Helmet, rate limiting, scrypt password hashing, HttpOnly SameSite sessions, CSRF protection for admin changes.
+- Frontend: premium responsive single-page website with animations.
+- Admin: /admin with one-time secure setup, login, enquiry management and status updates.
+- Contact form: saves enquiries to SQLite.
+- Animated strip: BEARER SHARER / VISIBILITY / TRAFFIC / VIEWS / SALES, continuously moving.
+- Main Trading section: intentionally prominent.
+- Trading URL: https://www.bearers-trade.quest/#/register
+
+BRAND ASSETS:
+- User supplied BEARER logo is in public/assets/bearer-logo.png.
+- User supplied YouTube image is in public/assets/youtube.png.
+- User supplied Amazon image is in public/assets/amazon.png.
+- User explicitly does NOT want fake platform logos or plain colored text labels.
+- Platforms required: YouTube, TikTok, Amazon, eBay, LinkedIn.
+
+USER ENVIRONMENT:
+- Windows 11
+- 16 GB RAM
+- Node.js already installed (user has been working with Node.js 24.x)
+
+DESIGN:
+- Professional, modern, premium, responsive.
+- Inspired by the clarity and polish of major platforms such as Fiverr/Amazon/LinkedIn, without copying them.
+- Dark teal/black base with BEARER gold accents.
+- Subtle animations, hover effects and moving borders; do not overload the page.
+- Platform section must be highlighted.
+- Trading must be highlighted as a main section.
+
+IMPORTANT CONTINUATION RULE:
+When the user says “continue the website”, “change the website”, “update BEARER SHARER”, or refers to this project, continue from this exact state. Do not rebuild from zero unless explicitly requested. Preserve existing functionality and only change what the user asks for.
+
+FIRST RUN:
+1. Open the project folder.
+2. Run: npm install
+3. Run: npm start
+4. Open http://127.0.0.1:3000
+5. Open http://127.0.0.1:3000/admin and create the first admin account.
